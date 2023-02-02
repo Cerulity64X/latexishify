@@ -1,4 +1,4 @@
-# Latexishify
+# Latex-ishify
 An extremely simple program that converts plain text into Latex-like mathematical symbols.
 # Conversions
 Can convert Latin characters, Greek characters, and numeric characters. The exact character ranges are as follows:
