@@ -1,5 +1,11 @@
 # Latex-ishify
 An extremely simple program that converts plain text into Latex-like mathematical symbols.
+
+# Usage
+This can be built as a library or as an executable that acts like `cat`, reading from stdin and writing to stdout.\
+The latest builds (windows exe and rlib) are in the Releases.\
+Directions for running from the CLI:
+
 # Conversions
 Can convert Latin characters, Greek characters, and numeric characters. The exact character ranges are as follows:
 * a-z
