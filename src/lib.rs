@@ -13,7 +13,7 @@ pub fn trans_char(ch: char, base: char, to: char) -> Option<char> {
 pub fn char_latexishify(ch: char) -> char {
     match ch {
         // h is not included in the math symbols italicized block (??????????)
-        'h' => '𝘩',
+        'h' => 'ℎ',
         'a'..='z' => trans_char(ch, 'a', '𝑎').unwrap(),
         'A'..='Z' => trans_char(ch, 'A', '𝐴').unwrap(),
 

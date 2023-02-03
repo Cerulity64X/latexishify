@@ -20,4 +20,8 @@ Can convert Latin characters, Greek characters, and numeric characters. The exac
 # Limitations
 The two limitations for this program:\
 * Numeric characters are not italicized (and, on second thought, shouldn't be)
-* The letter 'h' is not included in the Italic section of the Unicode mathematical character block, it is instead replaced with a sans-serif italicized version, '𝘩'. I do not and cannot reason why, and am beyond confusion.
+* The letter 'h' is not included in the Italic section of the Unicode mathematical character block. I do not and cannot reason why, and am beyond confusion. It is instead replaced with symbol for the Planck constant (in the Letterlike block), 'ℎ'.
+
+# Changelog
+* v1.0: Initial release\
+* v1.1: Changed '𝘩' to 'ℎ' (credit: bubbliterally on Tumblr)
